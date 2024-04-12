@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Best Online Food Delivery Service in nepal | MyOnlineMeal.com</title>
+    <title>Best Online Food Delivery Service in Nepal | MyOnlineMeal.com</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
     <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
@@ -19,6 +19,7 @@
         <ul>
             <li class="item"><a href="#home">Home</a></li>
             <li class="item"><a href="#services-container">Services</a></li>
+            <li class="item"><a href="#gallery">Gallery</a></li> <!-- Added Gallery Section Link -->
             <li class="item"><a href="#client-section">Our Clients</a></li>
             <li class="item"><a href="#contact">Contact Us</a></li>
         </ul>
@@ -74,6 +75,26 @@
             </div>
         </div>
     </section>
+    
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <h1 class="h-primary center">Gallery</h1>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="img/gallery1.jpg" alt="Gallery Image 1">
+            </div>
+            <div class="gallery-item">
+                <img src="img/gallery2.jpg" alt="Gallery Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="img/gallery3.jpg" alt="Gallery Image 3">
+            </div>
+            <div class="gallery-item">
+                <img src="img/gallery4.jpg" alt="Gallery Image 4">
+            </div>
+        </div>
+    </section>
+
     <section id="client-section">
         <h1 class="h-primary center">Our Clients</h1>
         <div id="clients">
@@ -104,16 +125,17 @@
                 </div>
                 <div class="form-group">
                     <label for="email">Email: </label>
-                    <input type="email" name="name" id="email" placeholder="Enter your email">
+                    <input type="email" name="email" id="email" placeholder="Enter your email">
                 </div>
                 <div class="form-group">
                     <label for="phone">Phone Number: </label>
-                    <input type="phone" name="name" id="phone" placeholder="Enter your phone">
+                    <input type="tel" name="phone" id="phone" placeholder="Enter your phone">
                 </div>
                 <div class="form-group">
                     <label for="message">Message: </label>
                     <textarea name="message" id="message" cols="30" rows="10"></textarea>
                 </div>
+                <button type="submit" class="btn">Send Message</button>
             </form>
         </div>
     </section>
